@@ -18,3 +18,8 @@ install:
 
 build:
   project: .build/projects/$(TOOLSET)/bimg.sln
+
+artifact:
+- path: .build
+  name: release
+  
